@@ -9,4 +9,9 @@ public class CharacterHandleShootingGun : CharacterHandleWeapon
     {
       
     }
+
+    protected override void Initialization()
+    {
+        base.Initialization();
+    }
 }
