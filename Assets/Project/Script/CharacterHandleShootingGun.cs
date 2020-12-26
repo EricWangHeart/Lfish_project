@@ -1,18 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class CharacterHandleShootingGun : MonoBehaviour
+using MoreMountains.Tools;
+using MoreMountains.CorgiEngine;
+public class CharacterHandleShootingGun : CharacterHandleWeapon
 {
-    // Start is called before the first frame update
-    void Start()
+    protected override void HandleInput()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+      
     }
 }
